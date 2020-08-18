@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear: both;
+    margin-bottom: 50px;
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    background-color: #ff725e;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo{
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+    color: white;
+    line-height: 75px;
+}
+
+.header-logo:hover{
+    cursor: pointer;
+}
+    
+nav ul {
+    float: right;
+}
+
+nav li{
+    list-style: none;
+    float: left;
+    padding: 33px 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-hp .icon {
+    display: none;
+    width: 5%;
+    position: absolute;
+    right: 20px;
+    top: 48px;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.kontent{
+    margin-top: 120px;
+    position: relative;
+}
+
+#beranda {
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.background-utama {
+    background-color: white;
+}
+
+.container-utama{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1170px;
+    position: relative;
+}
+
+.gambar-beranda-utama {
+    max-height: 500px;
+    float: left;
+}
+
+.deskripsi-beranda-utama {
+    position: absolute;
+    left: 50%;
+    right: 5%;
+    margin-top: 100px;
+}
+
+.deskripsi-beranda-utama h1{
+    font-size: 30px;
+    color: #ff725e;
+}
+
+.btn-wrapper{
+    margin: 40px 0;
+}
+
+.tombol{
+    padding: 12px 24px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.googleplay{
+    background-color: #ff725e;
+    margin-right: 10px;
+}
+
+.googleplay:hover{
+    opacity: 50%;
+}
+
+.logo-googleplay{
+    width: 20px;
+    position: absolute;
+}
+
+.spasi {
+    color: #ff725e;
+}
+
+.appstore{
+    background-color: #ff725e;
+}
+
+.appstore:hover{
+    opacity: 50%;
+}
+
+.logo-apple{
+    width: 20px;
+    position: absolute;
+}
+
+.container-lacak{
+    background-color: #ff725e;
+    margin-bottom: 100px;
+}
+
+form{
+    max-width: 1170px;
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+form h1{
+    font-size: 28px;
+    color: white;
+}
+
+.tekslacakpaket {
+    display: block;
+    width: 80%;
+    height: 60px;
+    padding: 0 12px;
+    font-size: 20px;
+    color: #555555;
+    border: 1px solid white;
+    border-radius: 4px;
+    float: left;
+    margin-right: 10px;
+}
+
+.tombollacakpaket {
+    float: left;
+    width: 10%;
+    height: 60px;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
+    background-color: #455a64;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+.tombollacakpaket:hover{
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1170px;
+    position: relative;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.fitur-garisbawah {
+    font-size: 30px;
+    border-bottom: 3px solid #ff725e;
+    padding-bottom: 3px;
+}
+
+.gambar-fitur-kiri {
+    max-height: 400px;
+    float: left;
+}
+
+.deskripsi-fitur-kiri {
+    position: absolute;
+    left: 50%;
+    right: 5%;
+    top: 25%;
+}
+
+.deskripsi-fitur-kiri p{
+    font-size: 10px;
+}
+
+.deskripsi-fitur-kiri h2{
+    color: #ff725e;
+}
+
+.gambar-fitur-kanan {
+    max-height: 400px;
+    float: right;
+}
+
+.deskripsi-fitur-kanan {
+    position: absolute;
+    right: 50%;
+    left: 5%;
+    top: 25%;
+}
+
+.deskripsi-fitur-kanan h2{
+    color: #ff725e;
+}
+
+.container-tombol-paket{
+    background-color: #ff725e;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+.container-paket{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.bingkai-paket {
+    margin: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: 0.25rem;
+    transition: .5s ease;
+}
+
+.bingkai-paket:hover{
+    box-shadow: 0 0 0 10px white;
+    transition: .5s ease;
+    margin-top: 10px;
+}
+
+.foto-paket {
+    width: 50%;
+    border: 1px solid rgba(255, 114, 94, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.bingkai-paket h3 {
+    text-align: center;
+}
+
+.bingkai-paket p{
+    padding: 0 30px 30px 30px;
+    text-align: center;
+}
+
+.tombolkirimpaket {
+    width: auto;
+    height: 60px;
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
+    background-color: #455a64;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+.tombolkirimpaket:hover{
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
+
+.container-aside{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.container-aside h1{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.bingkai-aside {
+    margin: 20px auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(255, 114, 94, 0.5);
+    border-radius: 0.25rem;
+    transition: 1s ease;
+}
+
+.bingkai-aside:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.foto-aside {
+    width: 50%;
+    border: 1px solid rgba(255, 114, 94, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.deskripsi-aside {
+    padding: 20px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: #ff725e;
+    font-weight: bold;
+    z-index: 10;
+    text-align: center;
+}

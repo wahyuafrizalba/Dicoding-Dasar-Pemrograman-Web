@@ -1,0 +1,176 @@
+@media screen and (max-width: 1000px) {
+    .icon-hide {
+        display: none;
+    }
+    .nav-hp a.icon {
+      float: right;
+      display: block;
+    }
+
+    .nav-hp.responsive {
+        position: relative;
+    }
+
+    .nav-hp.responsive .icon {
+      position: absolute;
+      right: 20px;
+      top: 48px;
+      width: 5%;
+    }
+
+    .nav-hp.responsive li {
+      float: none;
+      display: block;
+      text-align: left;
+      background-color: rgba(255, 114, 94, 0.5);
+    }
+
+    .nav-hp.responsive li:hover {
+        font-weight: bold;
+        background-color: #ff725e;
+    }
+
+    .nav-hp.responsive li.icon-t {
+        background-color: transparent;
+    }
+
+    .nav-hp.responsive li.down {
+        margin-top: 100px;
+    }
+
+    .nav-hp.responsive a{
+        display: block;
+    }
+
+    .nav-hp.responsive ul {
+        float: right;
+    }
+    
+    .gambar-beranda-utama {
+        max-height: 350px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .deskripsi-beranda-utama {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    .tekslacakpaket {
+        float: none;
+        margin-left: 10%;
+    }
+
+    .tombollacakpaket {
+        position: relative;
+        width: auto;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    .gambar-fitur-kiri {
+        max-height: 350px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .deskripsi-fitur-kiri {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .gambar-fitur-kanan {
+        max-height: 350px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .deskripsi-fitur-kanan {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .container-paket{
+        flex-direction: column;
+    }
+
+    .bingkai-paket {
+        margin: 20px auto;
+        width: 70%;
+    }
+
+    .bingkai-aside {
+        margin: 20px auto;
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .nav-hp.responsive li.down {
+        margin-top: -11px;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width: 450px){
+    .nav-hp.responsive li.down {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #beranda {
+        margin-bottom: 100px;
+    }
+
+    .gambar-beranda-utama {
+        max-height: 200px;
+    }
+
+    .gambar-fitur-kiri {
+        max-height: 200px;
+    }
+    
+    .gambar-fitur-kanan {
+        max-height: 200px;
+    }
+
+    .tombol{
+        margin: 0 auto;
+    }
+
+    .googleplay{
+        margin-bottom: 10px;
+        width: 170px;
+    }
+
+    .appstore{
+        width: 170px;
+    }
+
+    .tombollacakpaket {
+        position: relative;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+
+    .bingkai-paket {
+        width: 100%;
+    }
+
+    .bingkai-aside {
+        width: 100%;
+    }
+}
